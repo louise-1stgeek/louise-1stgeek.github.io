@@ -2,6 +2,13 @@ let controller;
 let slideScene;
 let pageScene;
 
+// To find the stroke path for the logo SVG
+// const logo = document.querySelectorAll("#logo path");
+
+// for (let i = 0; i < logo.length; i++) {
+//     console.log(`Letter ${i} is ${logo[i].getTotalLength()}`);
+// }
+
 function animateSlides() {
     //Init Controller
     controller = new ScrollMagic.Controller();
